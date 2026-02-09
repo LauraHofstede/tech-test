@@ -1,1 +1,29 @@
 
+body {
+    color: blue;
+    background-color: lightblue;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+main {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: grid;
+    row-gap: 1rem;
+    width: fit-content;
+    background-color: azure;
+    padding: 2rem;
+    border-radius: 1rem;
+
+    fieldset{
+        display: grid;
+    }
+}
